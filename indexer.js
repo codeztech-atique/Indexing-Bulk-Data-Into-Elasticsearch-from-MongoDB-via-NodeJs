@@ -3,7 +3,8 @@ const config = require ('config');
 const chalk = require('chalk');
 const moment = require('moment');
 const mongoClient = require('mongodb').MongoClient;
-const url = config.mongodb.url+config.mongodb.local_server_ip+":"+config.mongodb.port;
+// const url = config.mongodb.url+config.mongodb.local_server_ip+":"+config.mongodb.port; // For local
+const url = config.mongodb.url+""+config.mongodb.username+":"+config.mongodb.password+"@"+config.mongodb.serverUrl+"/"+config.mongodb.databaseName+'?retryWrites=true&w=majority';
 
 
 const elasticClient = new elasticsearch.Client({
