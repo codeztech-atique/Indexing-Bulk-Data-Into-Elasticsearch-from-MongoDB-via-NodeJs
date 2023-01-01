@@ -11,7 +11,7 @@
   "dependencies": {
     "async": "^3.1.0",
     "chalk": "^2.4.2",
-    "config": "^3.2.3",
+    "config": "^3.3.8",
     "elasticsearch": "^16.4.0",
     "moment": "^2.24.0",
     "mongodb": "^3.3.2"
