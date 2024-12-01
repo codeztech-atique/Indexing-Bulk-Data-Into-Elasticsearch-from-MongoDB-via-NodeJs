@@ -14,6 +14,6 @@
     "config": "^3.2.3",
     "elasticsearch": "^16.4.0",
     "moment": "^2.24.0",
-    "mongodb": "^3.3.2"
+    "mongodb": "^3.5.1"
   }
 }
